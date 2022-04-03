@@ -1,0 +1,13 @@
+<div>
+
+  {{#each results}}
+    <div>
+
+    {{>results}}
+    
+    <a href="/albums/{{id}}">{{@root.buttonText}}</a>
+    <h2>{{name}}</h2>
+    </div>
+  {{/each}}
+
+</div>
